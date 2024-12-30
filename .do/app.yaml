@@ -154,7 +154,7 @@ jobs:
     github:
       branch: main
       deploy_on_push: true
-      repo: HiEventsDev/Hi.Events
+      repo: amirukim/pulsy-event
     instance_count: 2
     instance_size_slug: professional-xs
     kind: PRE_DEPLOY
@@ -181,7 +181,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: HiEventsDev/Hi.Events
+      repo: amirukim/pulsy-event
     http_port: 8080
     instance_count: 1
     instance_size_slug: professional-xs
@@ -209,7 +209,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: HiEventsDev/Hi.Events
+      repo: amirukim/pulsy-event
     http_port: 5678
     instance_count: 1
     instance_size_slug: professional-xs
@@ -221,7 +221,7 @@ workers:
     github:
       branch: main
       deploy_on_push: true
-      repo: HiEventsDev/Hi.Events
+      repo: amirukim/pulsy-event
     instance_count: 1
     instance_size_slug: professional-xs
     log_destinations:
